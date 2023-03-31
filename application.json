@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "页面1",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFEBFB",
+  "icon": "couples",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#553DE9\",\"logoUrl\":\"\",\"name\":\"应用 1\",\"treeData\":[{\"title\":\"一级菜单\",\"expanded\":true,\"children\":[{\"title\":\"页面1\",\"pageId\":\"642006bbd354b76acb5db51a\",\"isPage\":true},{\"title\":\"Page1\",\"pageId\":\"6419bbf7d354b76acb5db444\",\"isPage\":true}]}],\"outsiderTree\":[]}",
+  "deleted": false
+}

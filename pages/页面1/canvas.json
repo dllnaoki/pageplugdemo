@@ -1,0 +1,90 @@
+{
+  "unpublishedPage": {
+    "name": "页面1",
+    "slug": "1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 690,
+          "containerStyle": "none",
+          "snapRows": 89,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 910,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "formily1",
+              "isCanvas": false,
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 69,
+              "parentRowSpace": 10,
+              "title": "表单标题",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 18.0625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "themeColor"
+                }
+              ],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "xh9d5xxvs6",
+              "submitLabel": "提交",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "2dqk25hlxt",
+              "drawerWidth": "520px",
+              "isVisible": true,
+              "componentSize": "middle",
+              "version": 1,
+              "parentId": "0",
+              "modalWidth": "520px",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 20,
+              "maxDynamicHeight": 9000,
+              "themeColor": "{{appsmith.theme.colors.primaryColor}}",
+              "originalBottomRow": 68,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "页面1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "6419bbf7d354b76acb5db441_642006bbd354b76acb5db519"
+}
