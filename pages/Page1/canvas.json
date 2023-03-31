@@ -285,43 +285,6 @@
               "minDynamicHeight": 4
             },
             {
-              "boxShadow": "none",
-              "widgetName": "Camera1",
-              "isCanvas": false,
-              "displayName": "相机",
-              "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
-              "searchTags": [
-                "photo",
-                "video recorder",
-                "camera"
-              ],
-              "topRow": 75,
-              "bottomRow": 108,
-              "parentRowSpace": 10,
-              "type": "CAMERA_WIDGET",
-              "hideCard": false,
-              "mode": "CAMERA",
-              "parentColumnSpace": 18.0625,
-              "leftColumn": 26,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "kn68ayk89v",
-              "isMirrored": true,
-              "isDeprecated": false,
-              "rightColumn": 51,
-              "widgetId": "r9eb5qauq2",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-            },
-            {
               "widgetName": "Text1",
               "displayName": "文本",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -400,7 +363,7 @@
               "overflow": "NONE",
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 18.0625,
-              "leftColumn": 37,
+              "leftColumn": 61,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -417,7 +380,7 @@
               "text": "文本",
               "key": "tnch2swkay",
               "isDeprecated": false,
-              "rightColumn": 53,
+              "rightColumn": 64,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "5sozgzytde",
