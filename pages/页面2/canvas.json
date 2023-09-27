@@ -44,7 +44,7 @@
               "hideCard": false,
               "mobileRightColumn": 26,
               "parentColumnSpace": 16.765625,
-              "leftColumn": 0,
+              "leftColumn": 37,
               "dynamicBindingPathList": [
                 {
                   "key": "themeColor"
@@ -56,7 +56,7 @@
               "submitLabel": "提交",
               "formType": "PLAIN",
               "isDeprecated": false,
-              "rightColumn": 26,
+              "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "r0r7kbcbi6",
               "drawerWidth": "520px",
@@ -76,35 +76,41 @@
               "minDynamicHeight": 4
             },
             {
-              "mobileBottomRow": 78,
-              "widgetName": "RangeSlider1",
-              "displayName": "区间滑动条",
               "iconSVG": "/static/media/icon.8216245f04c391d4ae315397e9194dd4.svg",
               "defaultStartValue": 10,
               "tooltipAlwaysOn": false,
               "labelText": "百分比",
-              "searchTags": [
-                "range slider"
-              ],
               "topRow": 70,
-              "bottomRow": 78,
-              "parentRowSpace": 10,
               "labelWidth": 8,
               "type": "RANGE_SLIDER_WIDGET",
-              "hideCard": false,
-              "mobileRightColumn": 23,
               "animateLoading": true,
-              "min": 0,
-              "parentColumnSpace": 16.765625,
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
                 }
               ],
+              "isDisabled": false,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "isLoading": false,
+              "originalBottomRow": 78,
+              "minRange": 5,
+              "mobileBottomRow": 78,
+              "widgetName": "RangeSlider1",
+              "displayName": "区间滑动条",
+              "searchTags": [
+                "range slider"
+              ],
+              "bottomRow": 78,
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "mobileRightColumn": 23,
+              "min": 0,
+              "parentColumnSpace": 16.765625,
               "labelPosition": "Top",
               "shouldTruncate": false,
-              "isDisabled": false,
               "defaultEndValue": 100,
               "key": "meibg03fp0",
               "labelTextSize": "0.875rem",
@@ -112,8 +118,6 @@
               "rightColumn": 23,
               "max": 100,
               "widgetId": "01dengke3w",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": true,
               "marks": [
                 {
                   "value": 25,
@@ -130,17 +134,65 @@
               ],
               "sliderSize": "m",
               "shouldScroll": false,
-              "version": 1,
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "isLoading": false,
               "mobileTopRow": 70,
               "responsiveBehavior": "fill",
+              "originalTopRow": 70,
               "mobileLeftColumn": 0,
               "step": 1,
-              "showMarksLabel": true,
-              "minRange": 5
+              "showMarksLabel": true
+            },
+            {
+              "mobileBottomRow": 58,
+              "widgetName": "formily2",
+              "isCanvas": false,
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 10,
+              "bottomRow": 58,
+              "parentRowSpace": 10,
+              "title": "表单标题",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "mobileRightColumn": 37,
+              "parentColumnSpace": 16.75,
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "themeColor"
+                }
+              ],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "t1edi02anz",
+              "submitLabel": "提交",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 37,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "n8brdd3ec7",
+              "drawerWidth": "520px",
+              "isVisible": true,
+              "componentSize": "middle",
+              "version": 1,
+              "parentId": "0",
+              "modalWidth": "520px",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 10,
+              "originalTopRow": 10,
+              "mobileLeftColumn": 5,
+              "maxDynamicHeight": 9000,
+              "themeColor": "{{appsmith.theme.colors.primaryColor}}",
+              "originalBottomRow": 58,
+              "minDynamicHeight": 4
             }
           ]
         },
