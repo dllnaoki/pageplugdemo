@@ -1,0 +1,1 @@
+SELECT * FROM attendance_records LIMIT 10;
