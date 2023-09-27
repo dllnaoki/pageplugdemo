@@ -20,7 +20,7 @@
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "top",
-      "navStyle": "inline",
+      "navStyle": "stacked",
       "position": "static",
       "itemStyle": "text",
       "colorStyle": "light",
