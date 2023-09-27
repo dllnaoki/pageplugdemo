@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 780,
           "containerStyle": "none",
           "snapRows": 62,
           "parentRowSpace": 1,
@@ -74,6 +74,73 @@
               "themeColor": "{{appsmith.theme.colors.primaryColor}}",
               "originalBottomRow": 67,
               "minDynamicHeight": 4
+            },
+            {
+              "mobileBottomRow": 78,
+              "widgetName": "RangeSlider1",
+              "displayName": "区间滑动条",
+              "iconSVG": "/static/media/icon.8216245f04c391d4ae315397e9194dd4.svg",
+              "defaultStartValue": 10,
+              "tooltipAlwaysOn": false,
+              "labelText": "百分比",
+              "searchTags": [
+                "range slider"
+              ],
+              "topRow": 70,
+              "bottomRow": 78,
+              "parentRowSpace": 10,
+              "labelWidth": 8,
+              "type": "RANGE_SLIDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 23,
+              "animateLoading": true,
+              "min": 0,
+              "parentColumnSpace": 16.765625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "labelPosition": "Top",
+              "shouldTruncate": false,
+              "isDisabled": false,
+              "defaultEndValue": 100,
+              "key": "meibg03fp0",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 23,
+              "max": 100,
+              "widgetId": "01dengke3w",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "marks": [
+                {
+                  "value": 25,
+                  "label": "25%"
+                },
+                {
+                  "value": 50,
+                  "label": "50%"
+                },
+                {
+                  "value": 75,
+                  "label": "75%"
+                }
+              ],
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 70,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "step": 1,
+              "showMarksLabel": true,
+              "minRange": 5
             }
           ]
         },
