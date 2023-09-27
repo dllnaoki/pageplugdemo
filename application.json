@@ -19,8 +19,8 @@
   "unpublishedApplicationDetail": {
     "navigationSetting": {
       "showNavbar": true,
-      "orientation": "side",
-      "navStyle": "sidebar",
+      "orientation": "top",
+      "navStyle": "inline",
       "position": "static",
       "itemStyle": "text",
       "colorStyle": "light",
@@ -32,8 +32,8 @@
   "publishedApplicationDetail": {
     "navigationSetting": {
       "showNavbar": true,
-      "orientation": "top",
-      "navStyle": "stacked",
+      "orientation": "side",
+      "navStyle": "sidebar",
       "position": "static",
       "itemStyle": "text",
       "colorStyle": "light",
